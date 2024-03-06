@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/today_fragment">
+
+    <fragment
+        android:id="@+id/today_fragment"
+        android:name="com.leanderchristmann.dirtywork.ui.today_fragment"
+        android:label="Today"
+        tools:layout="@layout/fragment_today_fragment" />
+    <fragment
+        android:id="@+id/tomorrow_fragment"
+        android:name="com.leanderchristmann.dirtywork.ui.tomorrow_fragment"
+        android:label="Tomorrow"
+        tools:layout="@layout/fragment_tomorrow_fragment" />
+    <fragment
+        android:id="@+id/soon_fragment"
+        android:name="com.leanderchristmann.dirtywork.ui.soon_fragment"
+        android:label="Soon"
+        tools:layout="@layout/fragment_soon_fragment" />
+</navigation>

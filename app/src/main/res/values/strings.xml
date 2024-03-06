@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DirtyWork</string>
+    <string name="today_header_title">today</string>
+    <string name="tomorrow_header_title">tomorrow</string>
+    <string name="soon_header_title">soon</string>
+    <string name="add_today">add task to today\'s todo list</string>
+    <string name="add_tomorrow">add task to tomorrow\'s todo list</string>
+    <string name="add_soon">add task to soon\'s todo list</string>
+    <string name="example_todo_text">This is an example todo text</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="new_task_edit_text_hint">task description</string>
+</resources>

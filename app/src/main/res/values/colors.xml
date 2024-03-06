@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#262626</color>
+    <color name="littleBitLighterBlack">#202020</color>
+    <color name="lightDark">#3A3A3A</color>
+    <color name="grey">#555555</color>
+    <color name="flame">#ED5524</color>
+    <color name="white">#FCF7F8</color>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/today_fragment"
+        android:title="Today"
+        android:icon="@drawable/today_selector"/>
+    <item
+        android:id="@+id/tomorrow_fragment"
+        android:title="Tomorrow"
+        android:icon="@drawable/tomorrow_selector"/>
+    <item
+        android:id="@+id/soon_fragment"
+        android:title="Soon"
+        android:icon="@drawable/soon_selector"/>
+</menu>

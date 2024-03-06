@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="24dp"
+    android:paddingEnd="24dp">
+
+    <EditText
+        android:id="@+id/newTaskEditText"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat"
+        android:imeOptions="actionDone"
+        android:background="@null"
+        android:inputType="textMultiLine|textNoSuggestions"
+        android:hint="@string/new_task_edit_text_hint"
+        android:layout_marginTop="8dp"
+        android:textCursorDrawable="@color/flame"/>
+
+</LinearLayout>
